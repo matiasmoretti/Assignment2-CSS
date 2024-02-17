@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url("..\\images\\sky.jpg");  
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(1, 1, 96);  
+  color: skyblue;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Scriptina', cursive;
+  font-size: 36px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(1, 1, 96);
+  color: skyblue;
+}
+
+/* Some classes to express different emotions */
+/* To calm momment Normal font and neutral color*/
+.calm {
+  font-size: small;    
+  font-style: normal;
+  font-weight: normal;
+  color: #333;
+}
+
+/* To begging momment Italic, bold and strong color color*/
+.begging {
+  font-size: x-large;  
+  font-style: italic;
+  font-weight: bold;
+  color: #FF5733;
+}
+
+/* To desirer momment normal fonts and light color*/
+.desire {
+  font-size: large;  
+  font-style: normal;
+  font-weight: normal;
+  color: #008080;
+}
+
+/* To excited momment strong font and and strong color*/
+.excited {
+  font-size: x-large;  
+  font-style: normal;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+/* Man voices tend to ben stronger */
+.man {
+  font-size: medium;  
+  font-style: normal;
+  font-weight: normal;
+  color: blue;
+}
+
+/* Woman voices tend to be lighter */
+.woman {
+  font-size: medium;  
+  font-style: normal;
+  font-weight: normal;
+  color: #FF1493;
+}
+
+.normal {
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+}
