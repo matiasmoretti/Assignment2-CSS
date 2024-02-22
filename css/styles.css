@@ -1,11 +1,44 @@
+@font-face {
+  font-family: CalmFont;
+  src: url("..\\fonts\\Cabin-VariableFont_wdth,wght.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: BeggingFont;
+  src: url("..\\fonts\\RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: DesireFont;
+  src: url("..\\fonts\\Comfortaa-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face { 
+  font-family: ExcitedFont;
+  src: url("..\\fonts\\KiwiMaru-Regular.ttf") format('truetype');
+}
+
+@font-face { 
+  font-family: ManFont;
+  src: url("..\\fonts\\Manrope-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face { 
+  font-family: WomanFont;
+  src: url("..\\fonts\\Sacramento-Regular.ttf") format('truetype');
+}
+
+
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Verdana, Arial, sans-serif;
   background-image: url("..\\images\\sky.jpg");  
   background-color: #f5f5f5;
   color: #333;
   margin: 0;
   padding: 0;
   text-align: center;
+  text-shadow: 1px 0px 2px#4594b0;
 }
 
 header {
@@ -19,7 +52,7 @@ main {
   padding: 20px;
 }
 
-section {
+div {
   margin-bottom: 20px;
 }
 
@@ -43,7 +76,8 @@ footer {
 
 /* Some classes to express different emotions */
 /* To calm momment Normal font and neutral color*/
-.calm {
+.calm { 
+  font-family: CalmFont, Verdana, Arial;    
   font-size: small;    
   font-style: normal;
   font-weight: normal;
@@ -51,15 +85,17 @@ footer {
 }
 
 /* To begging momment Italic, bold and strong color color*/
-.begging {
+.begging { 
+  font-family: BeggingFont, Verdana, Arial;      
   font-size: x-large;  
   font-style: italic;
   font-weight: bold;
-  color: #FF5733;
+  color: #a10808;
 }
 
 /* To desirer momment normal fonts and light color*/
-.desire {
+.desire { 
+  font-family: BeggingFont, Verdana, Arial;        
   font-size: large;  
   font-style: normal;
   font-weight: normal;
@@ -67,7 +103,8 @@ footer {
 }
 
 /* To excited momment strong font and and strong color*/
-.excited {
+.excited { 
+  font-family: ExcitedFont, Verdana, Arial;          
   font-size: x-large;  
   font-style: normal;
   font-weight: bold;
@@ -76,6 +113,7 @@ footer {
 
 /* Man voices tend to ben stronger */
 .man {
+  font-family: ManFont, Verdana, Arial;    
   font-size: medium;  
   font-style: normal;
   font-weight: normal;
@@ -83,14 +121,15 @@ footer {
 }
 
 /* Woman voices tend to be lighter */
-.woman {
-  font-size: medium;  
+.woman { 
+  font-family: WomanFont, Verdana, Arial;  
+  font-size: x-large;  
   font-style: normal;
   font-weight: normal;
   color: #FF1493;
 }
 
-.normal {
+.normal { 
   font-size: small;
   font-style: normal;
   font-weight: normal;
